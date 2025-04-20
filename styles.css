@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #1C2F2D;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .hobby-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .hobby {
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hobby img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .hobby p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
