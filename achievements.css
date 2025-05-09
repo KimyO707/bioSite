@@ -1,3 +1,27 @@
+body {
+  background: linear-gradient(135deg, #1C2F2D, #1D3A33);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #28D07E;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #28D07E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 .gallery {
     display: flex;
@@ -9,10 +33,10 @@
   
   
   .achievement {
-    background-color: rgba(28, 47, 45, 0.8);
+    background-color: rgba(28, 47, 45, 0.7); 
     padding: 20px;
     border-radius: 15px;
-    width: 30%; 
+    width: 30%;
     text-align: center;
     box-shadow: 0 8px 20px rgba(0,0,0,0.4);
     box-sizing: border-box;

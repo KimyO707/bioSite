@@ -46,3 +46,10 @@ body {
     background-color: #1C2F2D;
     border: 2px solid #28D07E;
   }
+
+  .closing-statement {
+    margin-top: 60px;
+    font-style: italic;
+    color: #ccc;
+    font-size: 18px;
+  }
