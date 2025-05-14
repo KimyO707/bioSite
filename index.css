@@ -12,11 +12,29 @@ body {
     margin-bottom: 20px;
   }
   
-  h2 {
-    font-size: 30px;
-    color: #28D07E;
-    margin-bottom: 40px;
-  }
+ .navbar {
+  background-color: #1C2F2D;
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #28D07E;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s, border-bottom 0.3s;
+  padding-bottom: 5px;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #28D07E;
+}
   
   p {
     font-size: 20px;
@@ -53,3 +71,23 @@ body {
     color: #ccc;
     font-size: 18px;
   }
+
+  .title-with-confetti {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.confetti {
+  width: 60px;
+  height: auto;
+}
+
+.dad-photo {
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}

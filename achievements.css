@@ -1,3 +1,28 @@
+.navbar {
+  background-color: #1C2F2D;
+  padding: 15px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: #28D07E;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s, border-bottom 0.3s;
+  padding-bottom: 5px;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #28D07E;
+}
+
+
 body {
   background: linear-gradient(135deg, #1C2F2D, #1D3A33);
   color: white;
